@@ -1,16 +1,200 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <title>Мій перший сайт на GitHub Pages</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #e0f2fe; color: #0369a1; }
-        h1 { font-size: 2.5rem; }
-        p { font-size: 1.2rem; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Пасічник Іван — Мій сайт</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      margin: 0;
+      padding: 30px 15px;
+    }
+
+    .card {
+      max-width: 750px;
+      margin: 0 auto;
+      background-color: #1e293b;
+      padding: 30px;
+      border-radius: 16px;
+      border: 1px solid #334155;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+      font-size: 28px;
+    }
+
+    h2 {
+      color: #7dd3fc;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 8px;
+      margin-top: 28px;
+      font-size: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+
+    ul, ol {
+      line-height: 1.7;
+      color: #e2e8f0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background-color: #0f172a;
+    }
+
+    th, td {
+      border: 1px solid #475569;
+      padding: 10px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #0284c7;
+      color: #ffffff;
+    }
+
+    .form-box {
+      background-color: #0f172a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-top: 15px;
+    }
+
+    .row {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      color: #e2e8f0;
+    }
+
+    input[type="text"], select {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #475569;
+      background-color: #1e293b;
+      color: #ffffff;
+      font-size: 14px;
+      margin-left: 8px;
+    }
+
+    .btn {
+      background-color: #38bdf8;
+      color: #0f172a;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+
+    .btn:hover {
+      background-color: #7dd3fc;
+    }
+
+    .btn-alt {
+      background-color: #334155;
+      color: #f8fafc;
+    }
+
+    .btn-alt:hover {
+      background-color: #475569;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 18px;
+      color: #38bdf8;
+    }
+  </style>
 </head>
 <body>
-    <h1>Привіт, світ! 🚀</h1>
-    <p>Мій сайт успішно опубліковано на GitHub Pages!</p>
+
+  <div class="card">
+    <h1 align="center">Привіт! Я Пасічник Іван 👋</h1>
+    <p align="center">
+      Мені 16 років, я навчаюся у Ніжинському міському ліцеї. Це мій особистий міні-сайт, де я зібрав трохи інформації про свої захоплення та плани на майбутнє.
+    </p>
+
+    <h2>Що мені подобається</h2>
+    <ul>
+      <li><b>Спілкування з друзями:</b> люблю проводити час разом як у реальному житті, так і віртуально — спілкуватися або грати в ігри через Discord.</li>
+      <li><b>Відеомонтаж:</b> дуже захоплююся монтажем і працюю в програмі <b>Adobe After Effects 2024</b>.</li>
+      <li><b>Мої роботи:</b> зараз роблю едіти та відео середньої складності по іграх, кліпах із життя тощо.</li>
+    </ul>
+
+    <h2>Мої цілі на майбутнє</h2>
+    <ol type="1">
+      <li>Прокачати навички в анімації та моушн-дизайні на професійний рівень.</li>
+      <li>Пов'язати відеомонтаж зі своєю майбутньою професією.</li>
+      <li>Створювати якісні відео, анімації та моушн-графіку для відомих блогерів, знаменитостей і різних компаній.</li>
+    </ol>
+
+    <h2>Мій напрямок у монтажі</h2>
+    <table border="1" width="100%">
+      <tbody>
+        <tr>
+          <th>Напрямок</th>
+          <th>Програма</th>
+          <th>Поточний рівень</th>
+        </tr>
+        <tr>
+          <td>Ігрові та лайф-едіти</td>
+          <td>After Effects 2024</td>
+          <td>Середній (активно практикую)</td>
+        </tr>
+        <tr>
+          <td>Моушн-графіка та анімація</td>
+          <td>After Effects 2024</td>
+          <td>Мета для розвитку та роботи</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Інтерактив для гостей сайту</h2>
+    <div class="form-box">
+      <div class="row">
+        <label>Твоє ім'я або нік:</label>
+        <input type="text" placeholder="Введи нікнейм...">
+      </div>
+
+      <div class="row">
+        <label>Який контент тобі подобається найбільше:</label>
+        <select>
+          <option selected>Ігрові едіти</option>
+          <option>Кліпи з життя</option>
+          <option>Моушн-графіка та анімація</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <input type="checkbox" id="like" name="like" value="yes">
+        <label for="like">Мені сподобався цей міні-сайт</label>
+      </div>
+
+      <button class="btn" onclick="alert('Дякую за відгук! Радий бачити тебе на сторінці 🙌')">Надіслати відгук</button>
+      <button class="btn btn-alt" onclick="alert('Мій основний софт для монтажу — After Effects 2024 🎬')">Дізнатися мій софт</button>
+    </div>
+
+    <p class="footer"><b>Дякую за відвідування мого міні-сайту! ❤️</b></p>
+  </div>
+
 </body>
 </html>
